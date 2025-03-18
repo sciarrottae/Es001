@@ -1,0 +1,116 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #939393;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #939393;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+}
+
+.highlight {
+    font-family: arial, sans-serif;
+    font-weight: bold;  
+    color: #ffffff;     
+    font-size: 50px;    
+}
+
+.nav-links 
+{
+    font-family: arial, sans-serif;
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.nav-links a 
+{
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #575757;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover 
+{
+    background-color: #303030;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    height: auto;
+}
+
+.photo-container 
+{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.collage-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.italy-collage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ireland-collage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.collage-img:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.caption 
+{
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #939393;
+    margin: 20px;
+}
+
+.collage-img:nth-child(1) { top: 50px; left: 100px; }
+.collage-img:nth-child(2) { top: 100px; left: 320px; }
+.collage-img:nth-child(3) { top: 50px; left: 540px; }
+.collage-img:nth-child(4) { top: 100px; left: 760px; }
+.collage-img:nth-child(5) { top: 50px; left: 1000px; }
